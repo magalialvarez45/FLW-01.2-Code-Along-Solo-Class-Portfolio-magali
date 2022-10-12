@@ -3,12 +3,16 @@
 html, body {
   height: 100%;
   width: 100%;
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: #d11a1a;
   font-family: 'Roboto', sans-serif;
 }
 
 /* task 11: add flexbox to the div with a class named navBar.*/
+.navBar {
+  display: flex;
+  justify-content: flex-start;
+}
 
 
 /* task 12: style your nav bar so the links change color/style when your hover over them.*/
